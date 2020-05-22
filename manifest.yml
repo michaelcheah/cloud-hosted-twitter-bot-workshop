@@ -1,0 +1,8 @@
+---
+applications:
+  - name: Michaels-Twitter-Bot-Joke
+    random-route: true
+    memory: 128M
+    env:
+      GO_INSTALL_PACKAGE_SPEC: github.com/michaelcheah/cloud-hosted-twitter-bot-workshop/cmd
+      #<path to your main.go file on your system> e.g github.com/cloud-hosted-twitter-bot-workshop/cmd
